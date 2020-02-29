@@ -123,4 +123,19 @@ Public Class Form1
         hundredResults.Text = diceRoll
         Picture100.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & diceRoll), Image)
     End Sub
+
+    Private Sub combo_Click(sender As Object, e As EventArgs) Handles combo.Click
+
+        tenResults.Clear()
+        Dim diceRoll As Integer
+        diceRoll = RandomNumber(1, 9)
+        hundredResults.Text = diceRoll
+        Picture10.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & diceRoll), Image)
+
+        hundredResults.Clear()
+        Dim diceRoll As Integer
+        diceRoll = RandomNumber(0, 9) * 10
+        hundredResults.Text = diceRoll
+        Picture100.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & diceRoll), Image)
+    End Sub
 End Class

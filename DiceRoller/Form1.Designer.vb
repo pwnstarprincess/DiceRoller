@@ -45,6 +45,7 @@ Partial Class Form1
         Me.HundredSided = New System.Windows.Forms.Button()
         Me.Picture100 = New System.Windows.Forms.PictureBox()
         Me.hundredResults = New System.Windows.Forms.TextBox()
+        Me.combo = New System.Windows.Forms.Button()
         CType(Me.Picture4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -247,11 +248,21 @@ Partial Class Form1
         Me.hundredResults.Size = New System.Drawing.Size(162, 26)
         Me.hundredResults.TabIndex = 22
         '
+        'combo
+        '
+        Me.combo.Location = New System.Drawing.Point(917, 274)
+        Me.combo.Name = "combo"
+        Me.combo.Size = New System.Drawing.Size(174, 53)
+        Me.combo.TabIndex = 23
+        Me.combo.Text = "Roll 100 & 10"
+        Me.combo.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1165, 711)
+        Me.Controls.Add(Me.combo)
         Me.Controls.Add(Me.hundredResults)
         Me.Controls.Add(Me.Picture100)
         Me.Controls.Add(Me.HundredSided)
@@ -312,4 +323,5 @@ Partial Class Form1
     Friend WithEvents HundredSided As Button
     Friend WithEvents Picture100 As PictureBox
     Friend WithEvents hundredResults As TextBox
+    Friend WithEvents combo As Button
 End Class
