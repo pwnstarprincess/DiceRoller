@@ -129,11 +129,10 @@ Public Class Form1
         tenResults.Clear()
         Dim diceRoll As Integer
         diceRoll = RandomNumber(1, 9)
-        hundredResults.Text = diceRoll
+        tenResults.Text = diceRoll
         Picture10.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & diceRoll), Image)
 
         hundredResults.Clear()
-        Dim diceRoll As Integer
         diceRoll = RandomNumber(0, 9) * 10
         hundredResults.Text = diceRoll
         Picture100.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & diceRoll), Image)
