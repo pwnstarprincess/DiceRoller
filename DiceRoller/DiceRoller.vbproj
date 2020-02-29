@@ -179,5 +179,29 @@
   <ItemGroup>
     <None Include="Pics\Number20.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number60.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number70.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number80.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number90.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pics\Number0.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
