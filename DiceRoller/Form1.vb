@@ -113,6 +113,7 @@ Public Class Form1
         twentyResults.Clear()
         Picture20.Image = Nothing
         hundredResults.Clear()
+        Picture100.Image = Nothing
     End Sub
 
     Private Sub HundredSided_Click(sender As Object, e As EventArgs) Handles HundredSided.Click
