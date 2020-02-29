@@ -94,6 +94,7 @@ Public Class Form1
         Picture12.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & twelveResults.Text), Image)
         twentyResults.Text = RandomNumber(1, 20)
         Picture20.Image = DirectCast(My.Resources.ResourceManager.GetObject("Number" & twentyResults.Text), Image)
+        hundredResults.Text = RandomNumber(1, 9) * 10
 
     End Sub
 
@@ -110,7 +111,13 @@ Public Class Form1
         Picture12.Image = Nothing
         twentyResults.Clear()
         Picture20.Image = Nothing
+        hundredResults.Clear()
     End Sub
 
-
+    Private Sub HundredSided_Click(sender As Object, e As EventArgs) Handles HundredSided.Click
+        hundredResults.Clear()
+        Dim diceRoll As Integer
+        diceRoll = RandomNumber(1, 9)
+        hundredResults.Text = diceRoll * 10
+    End Sub
 End Class

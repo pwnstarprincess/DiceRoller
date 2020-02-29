@@ -42,12 +42,16 @@ Partial Class Form1
         Me.Picture10 = New System.Windows.Forms.PictureBox()
         Me.Picture12 = New System.Windows.Forms.PictureBox()
         Me.Picture20 = New System.Windows.Forms.PictureBox()
+        Me.HundredSided = New System.Windows.Forms.Button()
+        Me.Picture100 = New System.Windows.Forms.PictureBox()
+        Me.hundredResults = New System.Windows.Forms.TextBox()
         CType(Me.Picture4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Picture20, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Picture100, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'fourSide
@@ -218,11 +222,39 @@ Partial Class Form1
         Me.Picture20.TabIndex = 19
         Me.Picture20.TabStop = False
         '
+        'HundredSided
+        '
+        Me.HundredSided.Location = New System.Drawing.Point(894, 359)
+        Me.HundredSided.Name = "HundredSided"
+        Me.HundredSided.Size = New System.Drawing.Size(101, 35)
+        Me.HundredSided.TabIndex = 20
+        Me.HundredSided.Text = "100-Sided"
+        Me.HundredSided.UseVisualStyleBackColor = True
+        '
+        'Picture100
+        '
+        Me.Picture100.Location = New System.Drawing.Point(894, 419)
+        Me.Picture100.Name = "Picture100"
+        Me.Picture100.Size = New System.Drawing.Size(235, 201)
+        Me.Picture100.TabIndex = 21
+        Me.Picture100.TabStop = False
+        '
+        'hundredResults
+        '
+        Me.hundredResults.Location = New System.Drawing.Point(894, 636)
+        Me.hundredResults.Name = "hundredResults"
+        Me.hundredResults.ReadOnly = True
+        Me.hundredResults.Size = New System.Drawing.Size(162, 26)
+        Me.hundredResults.TabIndex = 22
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1165, 711)
+        Me.Controls.Add(Me.hundredResults)
+        Me.Controls.Add(Me.Picture100)
+        Me.Controls.Add(Me.HundredSided)
         Me.Controls.Add(Me.Picture20)
         Me.Controls.Add(Me.Picture12)
         Me.Controls.Add(Me.Picture10)
@@ -251,6 +283,7 @@ Partial Class Form1
         CType(Me.Picture10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Picture12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Picture20, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Picture100, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -276,4 +309,7 @@ Partial Class Form1
     Friend WithEvents Picture10 As PictureBox
     Friend WithEvents Picture12 As PictureBox
     Friend WithEvents Picture20 As PictureBox
+    Friend WithEvents HundredSided As Button
+    Friend WithEvents Picture100 As PictureBox
+    Friend WithEvents hundredResults As TextBox
 End Class
