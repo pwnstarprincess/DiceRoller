@@ -128,9 +128,6 @@
     <value>..\Pics\Number10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Number11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Pics\Number1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Number111" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Pics\Number11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Number12" type="System.Resources.ResXFileRef, System.Windows.Forms">
