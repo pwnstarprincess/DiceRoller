@@ -1,4 +1,8 @@
-﻿Public Class Form1
+﻿''Jennifer Pezzulo
+''D and D dice roller
+''FEb 28, 2020
+
+Public Class Form1
 
 
     ''Shared ReadOnly Generator As System.Random = New System.Random()
